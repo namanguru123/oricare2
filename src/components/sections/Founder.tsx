@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Quote, Link, Mail } from "lucide-react";
+import Image from "next/image";
 
 export function Founder() {
   return (
@@ -12,7 +13,7 @@ export function Founder() {
           <Quote className="absolute top-8 right-8 w-16 h-16 text-teal-100/50 -z-0" />
 
           <div className="flex flex-col md:flex-row gap-10 items-center relative z-10">
-            {/* Image Placeholder */}
+            {/* Founder Image */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -20,9 +21,13 @@ export function Founder() {
               transition={{ duration: 0.6 }}
               className="w-48 h-48 md:w-64 md:h-64 shrink-0 rounded-full border-4 border-teal-100 overflow-hidden relative shadow-lg"
             >
-              <div className="absolute inset-0 bg-slate-200 flex items-center justify-center">
-                <span className="text-slate-400 font-medium text-sm text-center px-4">Founder Image Placeholder</span>
-              </div>
+              <Image 
+                src="/founder.jpeg" 
+                alt="Kushagra Sharma, Founder of Oricareo"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 192px, 256px"
+              />
             </motion.div>
 
             {/* Content */}

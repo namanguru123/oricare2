@@ -43,7 +43,7 @@ Preferred Contact: ${formData.contactMethod}
 Phone: ${formData.phone}`;
 
       const encodedText = encodeURIComponent(text);
-      const waUrl = `https://wa.me/917804818549?text=${encodedText}`;
+      const waUrl = `https://wa.me/917400657966?text=${encodedText}`;
 
       // Redirect to WhatsApp after showing toast briefly
       setTimeout(() => {
@@ -97,7 +97,7 @@ Phone: ${formData.phone}`;
               <label className="text-sm font-semibold text-slate-700">Phone Number</label>
               <input
                 type="tel"
-                placeholder="+91 98765 43210"
+                placeholder="+91 74006 57966"
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 className={`w-full px-4 py-3 rounded-xl border ${errors.phone ? 'border-red-400 bg-red-50' : 'border-slate-200'} focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all`}

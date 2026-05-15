@@ -42,7 +42,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-teal-400 shrink-0" />
-                <span>+91 7804818549</span>
+                <span>+91 74006 57966</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-teal-400 shrink-0" />
@@ -62,7 +62,7 @@ export function Footer() {
             <h3 className="text-white font-semibold text-lg">Need Immediate Help?</h3>
             <p className="text-sm text-slate-400">Our support team is available 24/7 on WhatsApp.</p>
             <a
-              href="https://wa.me/917804818549"
+              href="https://wa.me/917400657966"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-xl font-medium hover:bg-[#20bd5a] transition-colors shadow-lg shadow-[#25D366]/20"

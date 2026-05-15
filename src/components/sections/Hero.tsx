@@ -46,7 +46,7 @@ export function Hero() {
                 Book Assistance
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/917400657966"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex justify-center items-center gap-2 px-8 py-4 bg-white text-slate-700 font-semibold rounded-xl border border-slate-200 hover:border-teal-200 hover:bg-teal-50 transition-all shadow-sm active:scale-95"
