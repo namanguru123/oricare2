@@ -8,7 +8,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Oricare | We Care For You",
+  title: "Oricareo | We Care For You",
   description: "Verified caretaking agents who assist elderly family members with routine checkups, companion support, and daily assistance.",
 };
 

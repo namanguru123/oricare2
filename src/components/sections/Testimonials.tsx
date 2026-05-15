@@ -8,19 +8,19 @@ const testimonials = [
     name: "Rahul Sharma",
     location: "Bangalore",
     relation: "Son",
-    text: "Being in Bangalore while my parents are in Delhi always worried me. Since I found Oricare, I have complete peace of mind. The agents treat my parents like their own family.",
+    text: "Being in Bangalore while my parents are in Delhi always worried me. Since I found Oricareo, I have complete peace of mind. The agents treat my parents like their own family.",
   },
   {
     name: "Priya Patel",
     location: "London",
     relation: "Daughter",
-    text: "Oricare has been a blessing. The agent not only takes my father to his weekly dialysis but also stays with him, talks to him, and makes sure he is comfortable. It's truly emotional for me.",
+    text: "Oricareo has been a blessing. The agent not only takes my father to his weekly dialysis but also stays with him, talks to him, and makes sure he is comfortable. It's truly emotional for me.",
   },
   {
     name: "Amit Desai",
     location: "Mumbai",
     relation: "Grandson",
-    text: "The compassion and professionalism of Oricare's team is unmatched. When my grandmother had a sudden fall, the emergency assistance team arrived within minutes. I owe them a lot.",
+    text: "The compassion and professionalism of Oricareo's team is unmatched. When my grandmother had a sudden fall, the emergency assistance team arrived within minutes. I owe them a lot.",
   },
 ];
 
@@ -33,7 +33,7 @@ export function Testimonials() {
             Stories of Care & Trust
           </h2>
           <p className="text-slate-600 text-lg">
-            Hear from families who have experienced the warmth and reliability of Oricare.
+            Hear from families who have experienced the warmth and reliability of Oricareo.
           </p>
         </div>
 

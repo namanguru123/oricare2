@@ -39,7 +39,7 @@ export function WhyChooseUs() {
               </span>
             </h2>
             <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-              We know how difficult it is to balance your career, your life away from home, and the well-being of your parents. Oricare bridges that gap with compassion and professionalism.
+              We know how difficult it is to balance your career, your life away from home, and the well-being of your parents. Oricareo bridges that gap with compassion and professionalism.
             </p>
 
             <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-4">
@@ -86,22 +86,22 @@ export function WhyChooseUs() {
                   VS
                 </div>
                 <div className="text-right">
-                  <h3 className="text-2xl font-bold text-teal-400 mb-1">Oricare</h3>
+                  <h3 className="text-2xl font-bold text-teal-400 mb-1">Oricareo</h3>
                   <p className="text-slate-400 text-sm">Our premium promise</p>
                 </div>
               </div>
 
               <div className="space-y-6">
                 {[
-                  { label: "Background Checks", standard: "Basic", oricare: "Rigorous & Verified" },
-                  { label: "Updates", standard: "End of day", oricare: "Real-time tracking" },
-                  { label: "Support", standard: "Transactional", oricare: "Compassionate" },
-                  { label: "Flexibility", standard: "Rigid blocks", oricare: "Tailored to need" },
+                  { label: "Background Checks", standard: "Basic", oricareo: "Rigorous & Verified" },
+                  { label: "Updates", standard: "End of day", oricareo: "Real-time tracking" },
+                  { label: "Support", standard: "Transactional", oricareo: "Compassionate" },
+                  { label: "Flexibility", standard: "Rigid blocks", oricareo: "Tailored to need" },
                 ].map((item, i) => (
                   <div key={i} className="flex justify-between items-center text-sm sm:text-base">
                     <span className="text-slate-400 w-1/3 text-left">{item.label}</span>
                     <span className="text-slate-500 w-1/3 text-center line-through decoration-slate-600/50">{item.standard}</span>
-                    <span className="text-teal-400 w-1/3 text-right font-semibold">{item.oricare}</span>
+                    <span className="text-teal-400 w-1/3 text-right font-semibold">{item.oricareo}</span>
                   </div>
                 ))}
               </div>

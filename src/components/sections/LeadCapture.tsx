@@ -23,7 +23,7 @@ export function LeadCapture() {
     if (!formData.city.trim()) newErrors.city = "City is required";
     if (!formData.age || isNaN(Number(formData.age))) newErrors.age = "Valid age is required";
     if (!formData.phone.trim() || formData.phone.length < 10) newErrors.phone = "Valid phone number required";
-    
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -32,19 +32,19 @@ export function LeadCapture() {
     e.preventDefault();
     if (validate()) {
       setIsSubmitted(true);
-      
+
       // Construct WhatsApp message
-      const text = `Hello Oricare! I need assistance.
+      const text = `Hello Oricareo! I need assistance.
 Name: ${formData.fullName}
 City: ${formData.city}
 Elderly Person Age: ${formData.age}
 Service Needed: ${formData.service}
 Preferred Contact: ${formData.contactMethod}
 Phone: ${formData.phone}`;
-      
+
       const encodedText = encodeURIComponent(text);
-      const waUrl = `https://wa.me/919876543210?text=${encodedText}`;
-      
+      const waUrl = `https://wa.me/917804818549?text=${encodedText}`;
+
       // Redirect to WhatsApp after showing toast briefly
       setTimeout(() => {
         window.open(waUrl, "_blank");
@@ -60,7 +60,7 @@ Phone: ${formData.phone}`;
         <div className="max-w-4xl mx-auto glass rounded-3xl p-8 md:p-12 shadow-xl border border-white relative overflow-hidden">
           {/* Decorative background */}
           <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-teal-50 to-blue-50 opacity-50 -z-10" />
-          
+
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Request Assistance Today</h2>
             <p className="text-slate-600">Fill out the form below, and our care coordination team will reach out to you instantly.</p>
@@ -87,7 +87,7 @@ Phone: ${formData.phone}`;
                 type="text"
                 placeholder="John Doe"
                 value={formData.fullName}
-                onChange={(e) => setFormData({...formData, fullName: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                 className={`w-full px-4 py-3 rounded-xl border ${errors.fullName ? 'border-red-400 bg-red-50' : 'border-slate-200'} focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all`}
               />
               {errors.fullName && <span className="text-xs text-red-500">{errors.fullName}</span>}
@@ -99,7 +99,7 @@ Phone: ${formData.phone}`;
                 type="tel"
                 placeholder="+91 98765 43210"
                 value={formData.phone}
-                onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 className={`w-full px-4 py-3 rounded-xl border ${errors.phone ? 'border-red-400 bg-red-50' : 'border-slate-200'} focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all`}
               />
               {errors.phone && <span className="text-xs text-red-500">{errors.phone}</span>}
@@ -111,7 +111,7 @@ Phone: ${formData.phone}`;
                 type="text"
                 placeholder="Mumbai"
                 value={formData.city}
-                onChange={(e) => setFormData({...formData, city: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                 className={`w-full px-4 py-3 rounded-xl border ${errors.city ? 'border-red-400 bg-red-50' : 'border-slate-200'} focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all`}
               />
               {errors.city && <span className="text-xs text-red-500">{errors.city}</span>}
@@ -123,7 +123,7 @@ Phone: ${formData.phone}`;
                 type="number"
                 placeholder="75"
                 value={formData.age}
-                onChange={(e) => setFormData({...formData, age: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, age: e.target.value })}
                 className={`w-full px-4 py-3 rounded-xl border ${errors.age ? 'border-red-400 bg-red-50' : 'border-slate-200'} focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all`}
               />
               {errors.age && <span className="text-xs text-red-500">{errors.age}</span>}
@@ -133,7 +133,7 @@ Phone: ${formData.phone}`;
               <label className="text-sm font-semibold text-slate-700">Service Needed</label>
               <select
                 value={formData.service}
-                onChange={(e) => setFormData({...formData, service: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                 className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-teal-500 bg-white"
               >
                 <option>Routine Health Checkups</option>
@@ -149,7 +149,7 @@ Phone: ${formData.phone}`;
               <label className="text-sm font-semibold text-slate-700">Preferred Contact Method</label>
               <select
                 value={formData.contactMethod}
-                onChange={(e) => setFormData({...formData, contactMethod: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, contactMethod: e.target.value })}
                 className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-teal-500 bg-white"
               >
                 <option>WhatsApp</option>

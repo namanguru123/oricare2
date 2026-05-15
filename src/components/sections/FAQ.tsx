@@ -7,7 +7,7 @@ import { Plus, Minus } from "lucide-react";
 const faqs = [
   {
     question: "How do you verify your caretaking agents?",
-    answer: "Every Oricare agent goes through a rigorous 4-step verification process, including an identity check, comprehensive background check, medical emergency response training verification, and a multi-round interview process.",
+    answer: "Every Oricareo agent goes through a rigorous 4-step verification process, including an identity check, comprehensive background check, medical emergency response training verification, and a multi-round interview process.",
   },
   {
     question: "Can I choose the same agent for recurring visits?",

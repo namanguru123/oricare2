@@ -61,7 +61,7 @@ export function TrustIndicators() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Why Families Trust Oricare
+            Why Families Trust Oricareo
           </h2>
           <p className="text-slate-600 text-lg">
             We understand that leaving your loved ones in someone else&apos;s care requires immense trust. Here is how we ensure their safety and comfort.

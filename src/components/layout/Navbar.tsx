@@ -41,7 +41,7 @@ export function Navbar() {
             <HeartPulse className="w-6 h-6" />
           </div>
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-blue-600">
-            Oricare
+            Oricareo
           </span>
         </Link>
 

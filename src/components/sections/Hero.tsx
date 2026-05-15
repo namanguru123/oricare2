@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Calendar, PhoneCall, HeartPulse, ShieldCheck } from "lucide-react";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -33,7 +34,7 @@ export function Hero() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
-              Oricare connects you with verified, qualified caretaking agents who provide daily assistance, hospital visits, and companion support for your elderly family members.
+              Oricareo connects you with verified, qualified caretaking agents who provide daily assistance, hospital visits, and companion support for your elderly family members.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -74,14 +75,17 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative lg:h-[600px] flex items-center justify-center"
           >
-            {/* Main Image Placeholder */}
+            {/* Main Image */}
             <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-              <div className="absolute inset-0 bg-slate-200 flex items-center justify-center">
-                <span className="text-slate-400 font-medium">Elderly Care Image Placeholder</span>
-                {/* Fallback pattern */}
-                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#94a3b8 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
+              <Image 
+                src="/elderly-care.png" 
+                alt="Compassionate care agent with an elderly person" 
+                fill 
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 400px"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent pointer-events-none" />
             </div>
 
             {/* Floating Cards */}
@@ -113,7 +117,7 @@ export function Hero() {
               </div>
               <div>
                 <p className="font-bold text-slate-800">500+ Families</p>
-                <p className="text-xs text-slate-500">Trust Oricare</p>
+                <p className="text-xs text-slate-500">Trust Oricareo</p>
               </div>
             </motion.div>
           </motion.div>

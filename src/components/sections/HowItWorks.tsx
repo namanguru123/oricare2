@@ -30,7 +30,7 @@ export function HowItWorks() {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            How Oricare Works
+            How Oricareo Works
           </h2>
           <p className="text-slate-600 text-lg">
             A simple, transparent process designed to give you peace of mind while we care for your family.

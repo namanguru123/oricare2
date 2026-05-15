@@ -12,7 +12,7 @@ export function Footer() {
               <div className="bg-teal-500/20 p-2 rounded-xl text-teal-400 group-hover:bg-teal-500 group-hover:text-white transition-colors">
                 <HeartPulse className="w-6 h-6" />
               </div>
-              <span className="text-xl font-bold text-white">Oricare</span>
+              <span className="text-xl font-bold text-white">Oricareo</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               We provide compassionate, verified caretaking agents for elderly family members, giving you peace of mind when you can&apos;t be there.
@@ -42,12 +42,12 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-teal-400 shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 7804818549</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-teal-400 shrink-0" />
-                <a href="mailto:hello@oricare.com" className="hover:text-teal-400 transition-colors">
-                  hello@oricare.com
+                <a href="mailto:hello@oricareo.com" className="hover:text-teal-400 transition-colors">
+                  hello@oricareo.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -62,7 +62,7 @@ export function Footer() {
             <h3 className="text-white font-semibold text-lg">Need Immediate Help?</h3>
             <p className="text-sm text-slate-400">Our support team is available 24/7 on WhatsApp.</p>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/917804818549"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-xl font-medium hover:bg-[#20bd5a] transition-colors shadow-lg shadow-[#25D366]/20"
@@ -75,7 +75,7 @@ export function Footer() {
 
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Oricare. All rights reserved.
+            © {new Date().getFullYear()} Oricareo. All rights reserved.
           </p>
           <p className="text-slate-500 text-sm flex items-center gap-1">
             Made with <HeartPulse className="w-4 h-4 text-red-500" /> for your loved ones
